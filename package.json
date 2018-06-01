@@ -1,0 +1,20 @@
+{
+  "name": "filewatcher",
+  "version": "1.0.0",
+  "description": "Searches for keys in log entries (PO numbers, invoice numbers, etc.)",
+  "main": "FileAlert.js",
+  "scripts": {
+    "test": "-t"
+  },
+  "author": "timmatteson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4",
+    "mongoose": "^5.1.3"
+  },
+  "start": "nodemon server.js"
+}
